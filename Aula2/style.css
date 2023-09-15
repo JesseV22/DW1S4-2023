@@ -1,0 +1,254 @@
+html {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 00%;
+  flex:1 0 120px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #87575c;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* Orientação vertical */
+  align-items: center;
+  justify-content: center;
+  /* Centraliza verticalmente */
+  min-height: 100vh;
+  background-image: url("../Atividade 2/pngtree-travel-world-map-background-image_2127089.jpg");
+  background-color: #6C63FF;
+  text-align: left;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+.container {
+  background-color: #d1dfbb;
+  padding: 3%;
+  border-radius: 20px;
+  /* Bordas arredondadas */
+  box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+b,
+strong {
+  color: #6C63FF;
+}
+
+.mercado {
+  background-color: #7FFFD4;
+  padding: 3%;
+  border-radius: 20px;
+  /* Bordas arredondadas */
+  box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.3);
+  width: auto;
+  max-width: 1000px;
+  margin-bottom: 3px;
+}
+
+.mercado strong {
+  font-weight: bold;
+  color: #f5fffa;
+}
+
+.gallery {
+  background-color: #87575c;
+  display: flex;
+  /* Define o contêiner como flexível */
+  justify-content: center;
+  /* Centraliza horizontalmente as galerias */
+  align-items: center;
+  /* Centraliza verticalmente as galerias */
+  flex-wrap: wrap;
+  /* Quebra para a próxima linha, se necessário */
+  margin-top: 20px;
+  /* Espaçamento acima das galerias */
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #d1dfbb;
+  width: calc(33.33% - 10px);
+  /* Distribuição igual das imagens com margens */
+  text-align: center;
+  display: flex;
+  background-color: #87575c;
+  display: flex;
+  /* Define o contêiner como flexível */
+  justify-content: center;
+  /* Centraliza horizontalmente as galerias */
+  align-items: center;
+  /* Centraliza verticalmente as galerias */
+  flex-wrap: wrap;
+  /* Quebra para a próxima linha, se necessário */
+  margin-top: 20px;
+}
+
+div.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #d1dfbb;
+  text-align: justify;
+  /* Justifica o texto */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 12px;
+}
+
+.menu {
+  list-style: none;
+  border: 1px solid #c0c0c0;
+  float: left;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  border-right: 1px solid #c0c0c0;
+}
+
+.menu li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 75px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #CCC;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #fff;
+  display: none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+  border:1px solid #c0c0c0;
+  display:block;
+  width:150px;
+  }
+  .image-container {
+    display: flex;
+    background-color: #87575c;
+    display: flex;
+    /* Define o contêiner como flexível */
+    justify-content: center;
+    /* Centraliza horizontalmente as galerias */
+    align-items: center;
+    /* Centraliza verticalmente as galerias */
+    flex-wrap: wrap;
+    /* Quebra para a próxima linha, se necessário */
+    margin-top: 20px;
+    
+   
+  }
+  
+  .image-container img {
+    max-width: 30%; /* Ajuste de acordo com o tamanho desejado */
+    height: auto;
+  }
+
+  .horizontal-menu ul {
+    list-style: none;
+    display: flex; /* Faz os itens ficarem lado a lado */
+    background-color: #f2f2f2;
+    padding: 0;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    overflow: hidden; /* Garante que os cantos arredondados fiquem bem definidos */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center; /* Centraliza os elementos verticalmente */
+   
+  }
+  
+  .horizontal-menu li {
+    margin: 0;
+    padding: 10px 15px;
+  }
+  
+  .horizontal-menu a {
+    text-decoration: solid;
+    color: #333;
+    transition: color 0.3s, text-shadow 0.3s; /* Adiciona uma transição suave */
+  }
+  
+  .horizontal-menu a:hover {
+    color: #87575c; /* Cor quando o mouse passa sobre o link */
+    text-shadow: 2px 2px 4px rgba(135, 87, 92, 0.6); /* Sombra nas letras */
+  }
+  /* Estilize o elemento <audio> */
+audio {
+  width: 300px; /* Largura do elemento */
+  background-color: transparent; /* Fundo transparente */
+  border: none; /* Sem borda */
+}
+
+/* Estilize os controles de áudio */
+audio::-webkit-media-controls-panel {
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo com transparência */
+  border-radius: 10px; /* Bordas arredondadas */
+  color: white; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilize os botões de reprodução */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  color: white; /* Cor do botão */
+  font-size: 24px; /* Tamanho do ícone */
+}
+
+/* Estilize a barra de progresso */
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button {
+  color: white; /* Cor dos elementos da barra de progresso */
+}
+/* Estilo para o botão */
+.scroll-button {
+  background-color: #87575c; /* Cor vermelha */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Borda arredondada */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+.scroll-button:hover {
+  background-color: #87575c; /* Cor vermelha mais escura ao passar o mouse */
+}
