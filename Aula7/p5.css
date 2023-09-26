@@ -3,11 +3,10 @@
 }
 
 #b {
-    font-family: 'Abel', sans-serif;
-}
+    font-family: 'Sofia Sans Condensed', sans-serif;}
 
 #c {
-    color: red;
+    color: rgb(27, 9, 107);
 }
 
 #d {
@@ -15,7 +14,7 @@
 }
 
 #e {
-    font-family: 'Borel', cursive;
+    font-family: 'DM Serif Display', serif;
 }
 
 #f {
@@ -31,5 +30,5 @@
 }
 
 #i {    
-    font-family: 'Handjet', cursive;
+    font-family: 'Indie Flower', cursive;
 }
