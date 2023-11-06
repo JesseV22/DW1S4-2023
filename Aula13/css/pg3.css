@@ -1,0 +1,8 @@
+body {
+    position: relative;
+  }
+  h1, h3 {
+    background-color: #EABA6B; /* Cor de fundo desejada */
+    padding: 10px; /* Espaçamento interno para dar destaque ao texto */
+    border-radius: 10px; /* Borda arredondada */
+  }
