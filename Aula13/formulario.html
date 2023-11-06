@@ -44,11 +44,13 @@
           </ul>
         </div>
       </nav>
+      <img src="../Aula13/imagens/undraw_savings_re_eq4w.svg" alt="" , width="300" height="200">
+
     <div class="container">
         
         <h1>Ficha de Inscriçao de Investimentos</h1>
         <div class="row">
-            <div class="col-6">
+            <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <form>
@@ -83,6 +85,44 @@
                                 <input type="url" class="form-control" id="url" placeholder="Digite a URL" required>
                             </div>
 
+                            <div class="form-group">
+                                <label for="numero">Número:</label>
+                                <input type="number" class="form-control" id="numero" placeholder="Digite um número" required>
+                            </div>
+        
+                            <!-- Campo de data -->
+                            <div class="form-group">
+                                <label for="data">Data:</label>
+                                <input type="date" class="form-control" id="data" required>
+                            </div>
+        
+                            <!-- Campo de envio de arquivos -->
+                            <div class="form-group">
+                                <label for="arquivo">Envie Um Comprovante de Residência:</label>
+                                <input type="file" class="form-control-file" id="arquivo">
+                            </div>
+                            <div class="form-group">
+                                <label for="curso">Qual sua Expê    riencia com Investimentos:</label>
+                                <br>
+                                <input type="checkbox" id="interesse_1" value="1">
+                                <label for="interesse_1">Sei um Pouco</label>
+        
+                                <input type="checkbox" id="interesse_2" value="2">
+                                <label for="interesse_2">Sei Medio</label>
+        
+                                <input type="checkbox" id="interesse_3" value="3">
+                                <label for="interesse_3">Sou Experte</label>
+                            </div>
+                            <div class="form-group">
+                                <a href="https://policies.google.com/terms?hl=pt-BR" target="_blank">Leia nossos Termos de Uso</a>
+                                <br>
+                                <input type="checkbox" id="termo-1" value="1">
+                                <label for="termo-1">Concordo com os termos de uso.</label>
+                                <br>
+                                <input type="checkbox" id="termo-2" value="1">
+                                <label for="termo-2">Não Concordo.</label>
+        
+                            </div>
 
 
 
@@ -102,48 +142,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <!-- Campo numérico -->
-                    <div class="form-group">
-                        <label for="numero">Número:</label>
-                        <input type="number" class="form-control" id="numero" placeholder="Digite um número" required>
-                    </div>
-
-                    <!-- Campo de data -->
-                    <div class="form-group">
-                        <label for="data">Data:</label>
-                        <input type="date" class="form-control" id="data" required>
-                    </div>
-
-                    <!-- Campo de envio de arquivos -->
-                    <div class="form-group">
-                        <label for="arquivo">Envie Um Comprovante de Residência:</label>
-                        <input type="file" class="form-control-file" id="arquivo">
-                    </div>
-                    <div class="form-group">
-                        <label for="curso">Qual sua Expê    riencia com Investimentos:</label>
-                        <br>
-                        <input type="checkbox" id="interesse_1" value="1">
-                        <label for="interesse_1">Sei um Pouco</label>
-
-                        <input type="checkbox" id="interesse_2" value="2">
-                        <label for="interesse_2">Sei Medio</label>
-
-                        <input type="checkbox" id="interesse_3" value="3">
-                        <label for="interesse_3">Sou Experte</label>
-                    </div>
-                    <div class="form-group">
-                        <a href="https://policies.google.com/terms?hl=pt-BR" target="_blank">Leia nossos Termos de Uso</a>
-                        <br>
-                        <input type="checkbox" id="termo-1" value="1">
-                        <label for="termo-1">Concordo com os termos de uso.</label>
-                        <br>
-                        <input type="checkbox" id="termo-2" value="1">
-                        <label for="termo-2">Não Concordo.</label>
-
-                    </div>
+               
                     </div>
                     
                 </div>
