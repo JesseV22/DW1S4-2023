@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    background: #CBD9EA;
+  }
+  h1, h3 {
+    background-color: #EABA6B; /* Cor de fundo desejada */
+    padding: 10px; /* Espaçamento interno para dar destaque ao texto */
+    border-radius: 10px; /* Borda arredondada */
+  }
+  .imagem-centralizada {
+    text-align: center;
+  }
+
+  .imagem-centralizada img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .card{
+    box-shadow: 3px 6px rgba(100, 100, 100,0.3);
+    width: 100%;
+    height: 100%;
+  }
+  .video {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .texto {
+    flex: 2;
+  }
