@@ -1,0 +1,46 @@
+<body>
+    <a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/93/93634.png" alt="" width="40vw"></a>
+    <div class="container">
+        <h1>Lampada</h1>
+        <figure>
+            <img id="foto" src="../Aula15/Imagens/lampada-acesa.png" alt="" onmouseenter="liga(true)" onmouseleave="liga(false)">
+        </figure>
+        <h2 id="txt">Lampada Apagada</h2>
+    </div>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .container{
+            text-align: center;
+        }
+        figure {
+            margin: 2vw;
+        }
+
+        h2{
+            margin: 2vw;
+        }
+    </style>
+    <script>
+        function liga(x) {
+            if (x) {
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("foto").src = "../Aula15/Imagens/lampada-acesa.png";
+                document.getElementById("txt").innerText = "Lampada Acesa";
+                return
+            }
+
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+            document.getElementById("foto").src = "../Aula15/Imagens/lampada.png";
+            document.getElementById("txt").innerText = "Lampada Apagada";
+
+            return
+        }
+    </script>
+</body>
+
+</html>
