@@ -30,7 +30,7 @@ html {
     .container {
       background-color: #EABA6B;
       padding: 3%;
-      border-radius: 20px; /* Bordas arredondadas */
+      border-radius: 30px; /* Bordas arredondadas */
       box-shadow: 0.2em 0.2em 0.5em #2DC7FF                                                                 ;
       width: 80%; /* Reduz a largura para parecer um celular */
       max-width: 400px; /* Define uma largura máxima */
